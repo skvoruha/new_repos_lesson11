@@ -158,3 +158,4 @@ const toggler = function(event){
 btn.addEventListener('click', toggler,true)
 circle.addEventListener('click', toggler,true)
 square.addEventListener('click', toggler,true)
+// Проверка
