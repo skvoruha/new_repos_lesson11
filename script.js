@@ -8,6 +8,8 @@ const range = document.getElementById('range')
 const span = document.getElementById('range-span')
 const circle = document.getElementById('circle')
 
+// вписываем в span изночальное значние из input
+span.textContent = range.value
 // функция изменение background квадрата который ввёдт в инпут
 const backGroundColor = function(){
   console.log(" Клик по кнопке");
@@ -28,7 +30,6 @@ btnOnCircle.style.display = "none"
 // range.addEventListener('')
 
 
-console.log(circle);
 const logger = function (event) {
   // запись в спан текст кторый мы пишем в инпуте
   span.textContent = event.target.value
